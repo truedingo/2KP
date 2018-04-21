@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">2kp</string>
     <string name="facebook_app_id">162080441155693</string>
+    <string name="options">OPTIONS</string>
+    <string name="m_sica">Música</string>
+    <string name="sound">SOUND</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
 </resources>
