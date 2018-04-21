@@ -5,6 +5,7 @@
     <string name="m_sica">Música</string>
     <string name="sound">SOUND</string>
     <string name="todo">TODO</string>
+    <string name="about">ABOUT</string>
     <string name="textview">TextView</string>
     <string name="off">OFF</string>
     <string name="on">ON</string>

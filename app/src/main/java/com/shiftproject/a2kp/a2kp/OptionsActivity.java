@@ -21,7 +21,7 @@ public class OptionsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_options);
         final MediaPlayer song=MediaPlayer.create(OptionsActivity.this,R.raw.music);
         if(song!= null)
         {
@@ -36,7 +36,6 @@ public class OptionsActivity extends AppCompatActivity {
         //FirebaseUser currentUser = mAuth.getCurrentUser();
         final SwitchCompat toggle = (SwitchCompat)findViewById(R.id.switch1);
         if (toggle==null)
-            Log.d(TAG,"HEY");
         toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {

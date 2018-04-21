@@ -19,5 +19,12 @@ public class MainMenuActivity extends AppCompatActivity {
                 startActivity(new Intent(MainMenuActivity.this, OptionsActivity.class));
             }
         });
+        Button about= findViewById(R.id.aboutbutton);
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainMenuActivity.this, AboutActivity.class));
+            }
+        });
     }
 }
